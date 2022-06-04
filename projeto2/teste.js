@@ -1,12 +1,17 @@
-var x, y, z;
-x = 5;
-y = 2;
-z = x + y;
+function navicon() {
+    var x = document.getElementById("mynav");
+    if (x.className == "topNav") {
+        x.className += "responsive";
+    } else {
+        x.className = "topNav";
+    }
+}
 
-document.getElementById("texto").innerHTML = "Javascript";
-
-function funcao1() {
-    document.getElementById("demo").innerHTML = "Parágrafo mudou. A imagem também. À propósito, " + x + " + " + y + " é igual à " + z + "." + Date();
-    document.getElementById("imagem").src = "../projeto2/comanf.jpg";
-
+function navicon2() {
+    var x = document.getElementById("mynav2");
+    if (x.className == "bottomNav") {
+        x.className += "responsive";
+    } else {
+        x.className = "bottomNav";
+    }
 }

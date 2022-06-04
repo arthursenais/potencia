@@ -14,29 +14,27 @@
 </head>
 
 <body>
-    <header>
+    <header class="topNav" id="mynav">
         <a class="inicio" href="../projeto2/index.html">
-            <img src="../projeto2/logo.png" width="50px"> </a>
+            <img src="../projeto2/imagens/logo.png" width="50px"> </a>
         <div class="headerconteudo">
             <a class="headerlink" href="../projeto2/loja.html">Loja</a>
             <a class="headerlink" href="../projeto2/artigos.html">Artigos</a>
             <a class="headerlink" href="../projeto2/comunidade.html">Comunidade</a>
             <a class="headerlink" href="../projeto2/planos.html">Planos</a>
             <a class="headerlink" href="../projeto2/sobrenos.html">Sobre nós</a>
+            <a href="javascript:void(0);" class="icon" onclick="navicon()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </header>
-
-    <center>
-        <img id="imagem" src="../projeto2/perfil.jpg" width="250px">
-        <p id="demo">Parágrafo</p>
-        <p id="texto"></p>
-        <button type="button" onclick="funcao1()">Apertar</button>
-    </center>
-    <footer>
+    <div class="banner">
+        <img src="C:\Users\arthu\Pictures\backgrounds/rhcp.jpg" width="100%"> </div>
+    <footer class="bottomNav" id="mynav2">
         <div class="footerconteudo">
             <div class="logolabel">
                 <a href="../projeto2/index.html">
-                    <img src="../projeto2/logo.png" width="60px"></a>
+                    <img src="../projeto2/imagens/logo.png" width="60px"></a>
                 <label>© 2022 Potencia.com</label>
             </div>
             <label>Conecte-se conosco:</label>
@@ -45,6 +43,9 @@
             <a href="https://www.twitter.com">Twitter</a>
             <a href="https://www.youtube.com">Youtube</a>
             <a href="https://www.pinterest.com">Pinterest</a>
+            <a href="javascript:void(0);" class="icon" onclick="navicon2()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </footer>
     <script src="../projeto2/teste.js"></script>

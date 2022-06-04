@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+i {
+    color: aliceblue;
+}
+
 header {
     top: 0;
     background-color: rgb(0, 0, 0);
@@ -47,6 +51,34 @@ header {
 
 .headerlink:hover {
     color: rgb(124, 124, 124);
+}
+
+.topNav .icon {
+    display: none;
+}
+
+.bottomNav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topNav a:not(.inicio) {
+        display: none;
+    }
+    .topNav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bottomNav a:not(:first-child) {
+        display: none;
+    }
+    .bottomNav a.icon {
+        float: right;
+        display: block;
+    }
 }
 
 footer {
@@ -101,8 +133,4 @@ footer a:hover {
     text-align: center;
     gap: 50px;
     color: white;
-}
-
-#comanf {
-    width: 350px;
 }

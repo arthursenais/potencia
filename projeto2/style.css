@@ -307,3 +307,94 @@ footer a:hover {
 .cartao label {
     max-width: 340px;
 }
+
+
+/* loja html: */
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.abas {
+    background-color: #ececec;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.abas button .active {
+    background-color: rgb(22, 22, 22);
+}
+
+.aba {
+    border: none;
+    flex-grow: 1;
+    padding: 1em 0em 1em 0em;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    font-size: 20px;
+}
+
+.abas button:hover {
+    background: #b3b3b3;
+}
+
+.produtos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 5px;
+    width: 90%;
+    background-color: #ececec;
+    padding-bottom: 50px;
+}
+
+.cartao2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+}
+
+.cartao2 img {
+    width: 340px;
+}
+
+.cartao2 h1 {
+    font-size: 24px;
+    max-width: 340px;
+}
+
+.cartao2 button {
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 700;
+}
+
+.cartao2 button:hover,
+.cartao2 button:focus {
+    background: rgb(30, 101, 255);
+}
+
+.cartao2 button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.cartao2 label {
+    max-width: 340px;
+}

@@ -15,3 +15,18 @@ function navicon2() {
         x.className = "bottomNav";
     }
 }
+
+function paginaProduto(paginaName, elmnt) {
+    var i, produtos, aba;
+    produtos = document.getElementsByClassName("produtos");
+    for (i = 0; i < produtos.length; i++) {
+        produtos[i].style.display = "none";
+    }
+    aba = document.getElementsByClassName("aba");
+    for (i = 0; i < aba.length; i++) {
+        aba[i].className = aba[i].className.replace(" active", "");
+    }
+    document.getElementById(paginaName).style.display = "flex";
+    elmnt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();

@@ -316,6 +316,7 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .abas {
@@ -348,10 +349,12 @@ footer a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    gap: 5px;
+    column-gap: 80px;
+    row-gap: 50px;
     width: 90%;
-    background-color: #ececec;
+    background-color: #ececec00;
     padding-bottom: 50px;
+    align-items: center;
 }
 
 .cartao2 {
@@ -362,14 +365,20 @@ footer a:hover {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     gap: 10px;
+    max-width: 240px;
 }
 
 .cartao2 img {
-    width: 340px;
+    max-width: 100%;
+}
+
+.cartao2 s {
+    font-size: 15px;
+    opacity: 70%;
 }
 
 .cartao2 h1 {
-    font-size: 24px;
+    font-size: 14px;
     max-width: 340px;
 }
 
@@ -397,4 +406,5 @@ footer a:hover {
 
 .cartao2 label {
     max-width: 340px;
+    color: crimson;
 }

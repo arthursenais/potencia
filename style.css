@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: 'Bernier';
-    src: url(../projeto2/Bernier-Font-Family/BERNIER\ regular.ttf);
+    src: url(../potencia-main/Bernier-Font-Family/BERNIER\ regular.ttf);
     font-weight: 100;
 }
 
@@ -150,7 +150,7 @@ footer a:hover {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0, 4, 36, 0.473), rgba(0, 1, 46, 0.384)), url("../projeto2/imagens/banner.png");
+    background-image: linear-gradient(rgba(0, 4, 36, 0.473), rgba(0, 1, 46, 0.384)), url("../potencia-main/imagens/banner.png");
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
@@ -237,7 +237,7 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../projeto2/imagens/background1.jpg);
+    background-image: url(../potencia-main/imagens/background1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -263,6 +263,7 @@ footer a:hover {
 }
 
 .categorias {
+    width: 70%;
     margin-inline: 100px;
     margin-top: 80px;
     display: flex;
@@ -407,4 +408,81 @@ footer a:hover {
 .cartao2 label {
     max-width: 340px;
     color: crimson;
+}
+
+
+/* artigos */
+
+.main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.allnoticias {
+    display: flex;
+    flex-direction: column;
+}
+
+.noticiacartao {
+    display: flex;
+    flex-flow: row;
+    column-gap: 20px;
+    padding: 1%;
+}
+
+.noticiacartao a {
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    color: crimson;
+    font-family: montserrat;
+}
+
+.noticiacartao a:hover {
+    text-decoration: underline;
+}
+
+.noticiacartao img {
+    border-radius: 10%;
+}
+
+.noticiacartao p {
+    color: rgba(0, 0, 0, 0.616);
+    font-family: montserrat;
+    font-style: oblique;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.esquerda {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.esquerda button {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 5%;
+    border-radius: 5%;
+    text-align: left;
+}
+
+.esquerda button:hover {
+    background-color: #b3b3b3;
+    text-decoration: underline;
+    cursor: pointer;
 }

@@ -30,3 +30,7 @@ function paginaProduto(paginaName, elmnt) {
     elmnt.currentTarget.className += " active";
 }
 document.getElementById("defaultOpen").click();
+
+function botao() {
+    myButton = getElementById("voltaraotopo")
+}
